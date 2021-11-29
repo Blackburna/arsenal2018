@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+.oszlop {
+    float: left;
+    width: 25%;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+body{
+    background-color: rgba(0, 255, 13, 0.397);
+}
+h1{
+    text-align: center;
+}
+h2{
+    color: rgba(255, 0, 0, 0.849);
+    font-variant: small-caps;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a{
+    color: rgb(9, 95, 28);
+    text-decoration: none;
+    text-align: center;
+}
+a:hover{
+    color: rgba(255, 0, 0, 0.849);
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 75px;
+    text-decoration: none;
+    text-align: center;
+}
+li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 27px;
+    color: rgb(9, 95, 28);
+    text-shadow: 0px 1px;
+}
